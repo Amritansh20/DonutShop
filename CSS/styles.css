@@ -1,0 +1,244 @@
+/* General */
+
+body{
+
+   background-color: #f2f3ee;
+   background-image: url("../images/bg-tile.gif");
+   background-repeat: repeat;
+   color: #4b2707;
+   background-position: top left;
+text-rendering: optimizeLegibility;
+font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 924px;
+    margin: 0 auto;
+    padding: 30px 24px;
+}
+
+/* Header */
+
+header nav{
+    text-align: center;
+}
+
+header nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    line-height: 141px;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 28px;
+}
+header nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #d17f3d;
+}
+header nav ul li a:hover{
+    color: #4b2707;
+    padding-top: 20px;
+    background: url(../images/tiny-donut.png) top center no-repeat;
+}
+
+header nav ul li#logo a{
+    display: block;
+    height: 141px;
+    width: 292px;
+    background: url(../images/logo.png) center center no-repeat;
+    text-indent: -999999px;
+}
+
+header nav ul li#logo a:hover{
+    padding: 0;
+    background: url(../images/logo-hover.png) center center no-repeat;
+    
+}
+/* General-content */
+
+.lead{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    padding-left: 100px;
+}
+
+ #story-lorem{
+   width: 50%;
+   float: left;
+   font-size: 16px;
+   margin-right: 24px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1.05rem;
+}
+
+#story-lorem a{
+    color:#d17f3d;
+}
+
+ #best-donut{ 
+    background: url("../images/award.png") left center no-repeat;
+    padding: 40px 0 30px 120px;
+    margin-left: 40px;
+    float: left; 
+    width: 30%    
+}
+
+.divider-image{
+    padding: 30px 0px 0px 320px;
+    margin-top: 244px;
+}
+
+/* .clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+} */
+
+
+/* News-Events Section */
+
+#articles{
+    width: 370px;
+    float: left;
+    margin-right: 25px;
+}
+
+#articles .news{
+    font-size: 15px;
+}
+
+#articles .news a{
+    color: #d17f3d;
+    text-decoration: underline;
+}
+
+#articles .news h3{
+    height: 38px;
+    padding-left: 50px;
+    background: url("../images/icon-news.png") left center no-repeat;
+    line-height: 20px;
+}
+
+
+#articles .news h3 time{
+    font-size: 12px;
+    font-weight: 500;
+    color: #d17f3d;
+}
+
+#articles .event{
+    font-size: 15px;
+}
+
+#articles .event a{
+    color: #d17f3d;
+    text-decoration: underline;
+}
+
+#articles .event h3{
+    height: 38px;
+    padding-left: 50px;
+    background: url("../images/icon-calendar.png") left center no-repeat;
+    line-height: 20px;
+}
+
+#articles .event h3 time{
+    font-size: 12px;
+    font-weight: 500;
+    color: #d17f3d;
+}
+
+
+
+
+
+/* Typography */
+
+h1,h2{
+    color: #d17f3d;
+    font-family: 'Love Ya Like A Sister', cursive;;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 44px;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+    width: 50%;
+    padding-left: 25%;
+    line-height: 0.1;
+    padding-top: 20px;
+}
+
+#hero{
+   background:  #e8c04f url('../images/bg-tile-yellow.gif') top left repeat;
+   padding: 0;
+}
+#hero .container{
+    position: relative;
+}
+
+#hero .ribbon{
+    height: 190px;
+    width: 150px;
+    background: url("../images/fresh-whole-ingredients.png") top left no-repeat;
+    position: absolute;
+    top: -40px;
+    right: -30px;
+    bottom: 40px;
+}
+
+.mark-black{
+    color:  #4b2707;
+}
+.header-divider{
+    padding-left: 280px;
+}
+
+
+
+/* Last-Section */
+
+
+.divider-image2{
+    padding: 30px 0px 0px 320px;
+    margin-top: 100px;
+}
+
+footer.main{
+    background: url("../images/bg-tile-brown.gif") top left repeat;
+    padding-bottom: 0px;
+    color: #f2f3ee;
+}
+
+#uncopyright{
+   background: url("../images/icon-recycle.png") center left no-repeat;
+   width: 50%;
+   float: left;
+   line-height: 0.5;
+   padding: 45px 50px;
+}
+
+#credits{
+    background: url("../images/icon-apple.png") top left no-repeat;
+    height: 150px;
+    width: 40%;
+    margin-left: 515px;
+    margin-right: 0px;
+    margin-top: 50px;
+    line-height: 2.5;
+}
+
+footer .container{
+    padding-bottom: 0px;
+}
